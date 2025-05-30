@@ -5,7 +5,7 @@ const Request = () => {
     
 
     return (
-        <Container maxWidth="sm" >
+        <Container maxWidth="sm" sx={{mt:"40px"}} >
             <Typography variant="h4" gutterBottom>
                 Отправить заявку
             </Typography>

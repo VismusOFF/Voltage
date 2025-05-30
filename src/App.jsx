@@ -12,27 +12,27 @@ function App() {
 
   const theme = createTheme({
     palette: {
-      mode: 'dark',
+      mode: 'light',  // Изменено на 'light'
       primary: {
-        main: '#DE1734',
-        dark: '#DF1A31',
+        main: '#ed2f2a',
+        dark: '#e22a16',
       },
       background: {
-        default: '#121212',
-        paper: '#1E1E1E',
+        default: '#ffffff',  // Белый цвет фона
+        paper: '#f5f5f5',    // Светло-серый цвет для бумаги
       },
       text: {
-        primary: '#FFFFFF',
-        secondary: '#B0BEC5',
+        primary: '#000000',  // Черный текст
+        secondary: '#424242', // Темно-серый текст для вторичных элементов
       },
     },
     components: {
       MuiButton: {
         styleOverrides: {
           containedPrimary: {
-            backgroundColor: '#DE1734',
+            backgroundColor: '#ed2f2a',
             '&:hover': {
-              backgroundColor: '#DF1A31',
+              backgroundColor: '#e22a16',
             },
           },
         },
@@ -48,7 +48,7 @@ function App() {
           <Route element={<MainPage />} path='/' />
           <Route element={<SignIn />} path='/signin' />
           <Route element={<SignUp />} path='/signup' />
-          <Route element={<Request/>} path='/request' />
+          <Route element={<Request />} path='/request' />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
