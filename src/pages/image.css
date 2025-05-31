@@ -5,3 +5,51 @@
     background-image: url('../assets/tire4.webp');
     background-size: cover;
 }
+.navigation-image,
+.sale-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 35px;
+    outline: 2px solid black;
+    cursor: pointer;
+}
+
+.sale-image {
+    background-image: url('../assets//sale.webp');
+}
+
+.navigation-image {
+    background-image: url('../assets/navigation.webp');
+}
+
+.delivery-image {
+    width: 105px;
+    height: 105px;
+    background-image: url('../assets/delivery.webp');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.background-gradient{
+    background: #FF512F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#FF512F, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#FF512F, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.guarantee-image {
+    width: 105px;
+    height: 105px;
+    background-image: url('../assets/guarantee.png');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.background-gradient2 {
+    background: #3CA55C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#3CA55C, #B5AC49);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#3CA55C, #B5AC49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
