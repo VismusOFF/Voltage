@@ -7,6 +7,8 @@ import SignIn from './components/auth/signIn'
 import SignUp from './components/auth/signUp'
 import Request from './components/request/request'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
+import ShopPage from './pages/shopPage'
+
 
 function App() {
 
@@ -49,6 +51,7 @@ function App() {
           <Route element={<SignIn />} path='/signin' />
           <Route element={<SignUp />} path='/signup' />
           <Route element={<Request />} path='/request' />
+          <Route element={<ShopPage/>} path='/shop' />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>

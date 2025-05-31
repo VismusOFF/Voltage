@@ -1,0 +1,7 @@
+.image-container{
+    width: 850px;
+    height: 400px;
+    border-radius: 35px;
+    background-image: url('../assets/tire4.webp');
+    background-size: cover;
+}
