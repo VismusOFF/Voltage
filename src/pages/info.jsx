@@ -15,7 +15,7 @@ const Info = () => {
                     <Box 
                         sx={{ 
                             backgroundColor: '#A8F000',
-                            width: '415px',  
+                            width: '412.5px',  
                             height: '100px', 
                             borderRadius: '25px', 
                             mr: '25px', 
@@ -29,7 +29,7 @@ const Info = () => {
                     <Box 
                         sx={{ 
                             backgroundColor: '#EF3123',
-                            width: '415px',  
+                            width: '412.5px',  
                             height: '100px', 
                             borderRadius: '25px', 
                             transition: 'transform 0.3s', 
