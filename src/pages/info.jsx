@@ -1,22 +1,23 @@
-import { Container } from "@mui/material";
+import { AddBoxRounded } from "@mui/icons-material";
+import { Container, Box } from "@mui/material";
 
 const Info = () => {
     return (
         <Container sx={{mt: '40px', display: 'flex', pb: '50px' }}>
             {/* Основной контейнер с красным фоном */}
-            <Container sx={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
+            <Box sx={{ display: 'flex', flexDirection: 'column', width: '850px', }}>
                 {/* Контейнер с синим фоном, который занимает всю ширину */}
-                <Container sx={{ backgroundColor: '#080A77', flex: '1', borderRadius: '15px', mb: '50px', width: '720px', transition: 'transform 0.3s', '&:hover': { transform: 'scale(1.05)' } }}>
+                <Box sx={{ backgroundColor: '#080A77', borderRadius: '35px', mb: '25px',height: '400px', width: '850px', transition: 'transform 0.3s', '&:hover': { transform: 'scale(1.03)' } }}>
 
-                </Container>
+                </Box>
                 {/* Контейнер для двух карточек с зеленым и красным фоном */}
-                <Container sx={{ display: 'flex' }}>
-                    <Container 
+                <Box sx={{ display: 'flex' }}>
+                    <Box 
                         sx={{ 
                             backgroundColor: '#A8F000',
-                            width: '350px',  
+                            width: '415px',  
                             height: '100px', 
-                            borderRadius: '15px', 
+                            borderRadius: '25px', 
                             mr: '25px', 
                             transition: 'transform 0.3s', 
                             '&:hover': {
@@ -24,33 +25,29 @@ const Info = () => {
                             }
                         }}
                     >
-                    </Container>
-                    <Container 
+                    </Box>
+                    <Box 
                         sx={{ 
                             backgroundColor: '#EF3123',
-                            width: '350px',  
+                            width: '415px',  
                             height: '100px', 
-                            borderRadius: '15px', 
+                            borderRadius: '25px', 
                             transition: 'transform 0.3s', 
                             '&:hover': {
                                 transform: 'scale(1.05)'
                             }
                         }}
                     >
-                    </Container>
-                </Container>
-            </Container>
+                    </Box>
+                </Box>
+            </Box>
             {/* Второй контейнер с белым фоном */}
-            <Container sx={{ height: '500px', }}>
-                <Container sx={{ backgroundColor: '#9EDFFF', width: '250px', height: '235px', mb: '25px', borderRadius: '15px', transition: 'transform 0.3s', '&:hover': { transform: 'scale(1.05)' } }}>
-                </Container>
-                <Container sx={{ backgroundColor: '#B3CCFF', width: '250px', height: '235px', borderRadius: '15px', transition: 'transform 0.3s', '&:hover': { transform: 'scale(1.05)' } }}>
-                </Container>
-            </Container>
-            <Container>
-                
-            </Container>
-
+            <Box sx={{ height: '500px', ml: '25px' }}>
+                <Box sx={{ backgroundColor: '#9EDFFF', width: '270px', height: '250px', mb: '25px', borderRadius: '35px', transition: 'transform 0.3s', '&:hover': { transform: 'scale(1.05)' } }}>
+                </Box>
+                <Box sx={{ backgroundColor: '#B3CCFF', width: '270px', height: '250px', borderRadius: '35px', transition: 'transform 0.3s', '&:hover': { transform: 'scale(1.05)' } }}>
+                </Box>
+            </Box>
             
         </Container>
     );
