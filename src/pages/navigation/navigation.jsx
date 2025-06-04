@@ -4,7 +4,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 
 const NavigationComponent = () => {
-    const position = [51.505, -0.09]; // Замените на координаты вашего магазина
+    const position = [41.732317, 44.779525]; // Замените на координаты вашего магазина
 
     return (
         <Container sx={{ mt: '100px', mb: '100px' }}>
