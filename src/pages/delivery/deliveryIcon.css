@@ -1,0 +1,51 @@
+body {
+    overflow-x: hidden;
+}
+
+.car-icon {
+    background-image: url('../../assets/car.png');
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: 35px;
+    position: absolute;
+    left: 280px;
+    top: 150px;
+}
+
+.shop-icon {
+    background-image: url('../../assets/shop2.png');
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: 35px;
+    position: absolute;
+    left: 320px;
+    top: 160px;
+}
+
+.express-icon {
+    background-image: url('../../assets/express.png');
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    justify-self: center;
+}
+
+.standart-icon{
+    background-image: url('../../assets/standart.png');
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    justify-self: center;
+}
+
+.pickup-icon{
+    background-image: url('../../assets/pickup.png');
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    justify-self: center;
+}

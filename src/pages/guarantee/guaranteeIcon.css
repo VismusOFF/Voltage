@@ -1,0 +1,9 @@
+.guaranteeIcon {
+    width: 350px;
+    height: 350px;
+    background-image: url('../../assets/guarantee2.png');
+    background-size: cover;
+    position: absolute;
+    left: 840px;
+    bottom: 160px;
+}
