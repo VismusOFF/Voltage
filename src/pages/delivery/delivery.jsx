@@ -7,7 +7,7 @@ const DeliveryInfo = () => {
 
     return (
         <Container sx={{ backgroundColor: '#FFFFFF', display: 'flex', flexDirection: 'column'}}>
-            <Typography variant="h2">Транспартировка</Typography>
+            <Typography variant="h2">Транспортировка</Typography>
             <Box sx={{display: 'flex', justifyContent: 'space-between', paddingTop: '50px'}}>
                 <Box sx={{width: '550px', height: '370px', backgroundColor: '#E7E5E5', borderRadius: '35px', position: 'relative'}}>
                     <Typography variant="h4" sx={{mt: '35px', ml: '35px'}}>Бесплатная доставка</Typography>
